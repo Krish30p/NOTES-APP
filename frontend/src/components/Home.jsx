@@ -73,7 +73,7 @@ const Home = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 min-h-screen bg-gray-500">
+    <div className="container mx-auto px-4 py-8 min-h-screen bg-slate-950">
       {error && <p className="text-red-400 mb-4">{error}</p>}
       <NoteModal
         isOpen={isModalOpen}
@@ -94,7 +94,7 @@ const Home = () => {
       </button>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {notes.map((note) => (
-          <div className="bg-gray-800 p-4 rounded-lg shadow-md" key={note._id}>
+          <div className="bg-gray-800 p-4 rounded-2xl shadow-md" key={note._id}>
             <h3 className="text-lg font-medium text-white mb-2">
               {note.title}
             </h3>
