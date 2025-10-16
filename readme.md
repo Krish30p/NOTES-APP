@@ -1,4 +1,4 @@
-#This is a full stack Notes app where you can register and login using email and password and it has edit ,search, time created features 
+<h1>This is a full stack Notes app where you can register and login using email and password and it has edit ,search, time created features 
 
 #TackStack Used : (MERN)
 #Frontend: React + Vite + Tailwind CSS
