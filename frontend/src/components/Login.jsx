@@ -24,7 +24,7 @@ const Login = ({ setUser }) => {
   };
 
   return (
-    <div className="container mx-auto max-w-md mt-10 p-6 bg-white rounded-lg shadow-md">
+    <div className="container mx-auto max-w-md mt-10 p-6 bg-gray-300 rounded-lg shadow-md">
       <h2 className="text-2xl font-semibold mb-6 text-center">Login</h2>
       {error && <p className="text-red-500 mb-4 text-center">{error}</p>}
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -48,13 +48,13 @@ const Login = ({ setUser }) => {
             required
           />
         </div>
-        <button className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-700">
+        <button className="w-full bg-blue-700 text-white py-2 rounded-md hover:bg-blue-800">
           Login
         </button>
       </form>
       <p className="mt-4 text-center">
         Don't have an account?{" "}
-        <Link className="text-blue-600 hover:underline" to="/register">
+        <Link className="text-blue-600 hover:underline hover:text-blue-800" to="/register">
           Register
         </Link>
       </p>

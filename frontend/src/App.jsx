@@ -35,7 +35,7 @@ function App() {
     );
   }
   return (
-    <div className="min-h-screen bg-gray-500">
+    <div className="min-h-screen bg-gray-600">
       <Navbar user={user} setUser={setUser} />
       <Routes>
         <Route
